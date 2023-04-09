@@ -1,0 +1,69 @@
+ul {
+    list-style: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-input button[type="submit"],
+.form-input button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-input button[type="submit"]:hover,
+.form-input button:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-input button[type="submit"] {
+    background-color: black;
+    color: white;
+}
+
+.form-input button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
